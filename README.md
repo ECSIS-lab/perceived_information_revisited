@@ -1,7 +1,7 @@
 # Perceived Information Revisited
 This repository is for a paper published in issue 4, TCHES 2022, entitled "Perceived Information Revisited: New Metrics to Evaluate Success Rate of Side-Channel Attacks."
 
-This repository contains the traces obtained form masked AES hardware based on threshold implementation (TI) presented in COSADE 2017, and some of source code for an attack on this hardware.
+This repository contains the traces obtained from masked AES hardware based on threshold implementation (TI) presented in COSADE 2017, and some source code for an attack on this hardware.
 
 ## Quick Start Guide
 1. Clone this repository to get the source code for the experiment.
@@ -9,8 +9,8 @@ This repository contains the traces obtained form masked AES hardware based on t
 git clone https://github.com/ECSIS-lab/perceived_information_revisited.git
 ```
 
-2. Download the zip archive of dataset from https://drive.google.com/drive/folders/18dqMqsDZVgv7exS1BmfI_F7wL1jIhDkp?usp=sharing and unzip it.
-3. Execute ./scripts/run.sh
+2. Download the zip archive of a dataset from https://drive.google.com/drive/folders/18dqMqsDZVgv7exS1BmfI_F7wL1jIhDkp?usp=sharing and unzip it.
+3. Execute ./scripts/run.sh.
 ```
 /bin/zsh ./scripts/run.sh
 ```
@@ -31,7 +31,7 @@ The structure of this repository is shown below:
 ```
 
 #### model.h5
-An hdf5 file which contains the pre-trained model parameters for an attack on masked AES implementation.
+An hdf5 file that contains the pre-trained model parameters for an attack on masked AES implementation.
 
 #### scripts/run.sh
 A zsh script for a demonstration of an experimental attack.
@@ -43,4 +43,4 @@ A python script to recover the secret key using the pre-trained model.
 A python script to load the dataset.
 
 #### srcs/model.py
-A python script that contains a structure of CNN model used in the experiment.
+A python script that contains a structure of the CNN model used in the experiment.
