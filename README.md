@@ -9,7 +9,7 @@ This repository contains the traces obtained form masked AES hardware based on t
 git clone https://github.com/ECSIS-lab/perceived_information_revisited.git
 ```
 
-2. Download the zip archive of dataset from ほちゃらら, and unzip it.
+2. Download the zip archive of dataset from https://drive.google.com/drive/folders/18dqMqsDZVgv7exS1BmfI_F7wL1jIhDkp?usp=sharing and unzip it.
 3. Execute ./scripts/run.sh
 ```
 /bin/zsh ./scripts/run.sh
