@@ -31,7 +31,7 @@ The structure of this repository is shown below:
 ```
 
 #### model.h5
-A hdf5 file which contains the pre-trained model parameters for an attack on masked AES implementation.
+An hdf5 file which contains the pre-trained model parameters for an attack on masked AES implementation.
 
 #### scripts/run.sh
 A zsh script for a demonstration of an experimental attack.
